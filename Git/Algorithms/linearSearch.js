@@ -1,21 +1,16 @@
 function linearSearch(arr, target) {
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length-1; i++) {
     if (arr[i] === target) {
-      return i; // Element gefunden, gibt den Index zurück
+      return i; 
     }
   }
-  return -1; // Element nicht gefunden
+  return -1; 
 }
 
 // Beispiel
 const array = [1, 2, 3, 4, 5];
 const targetElement = 3;
 
-const result = linearSearch(array, targetElement);
+consle.log(linearSearch(array,targetElement));
 
-if (result !== -1) {
-  console.log(`Element ${targetElement} gefunden an Index ${result}.`);
-} else {
-  console.log(`Element ${targetElement} nicht gefunden.`);
-}
 
