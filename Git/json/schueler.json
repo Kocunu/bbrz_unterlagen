@@ -1,0 +1,20 @@
+{
+  "schueler": [
+    {
+      "name": "Max Mustermann",
+      "klasse": "10A",
+      "noten": [85, 90, 88]
+    },
+    {
+      "name": "Lisa Müller",
+      "klasse": "11B",
+      "noten": [92, 88, 95]
+    },
+    {
+      "name": "Tom Schmidt",
+      "klasse": "9C",
+      "noten": [78, 80, 75]
+    }
+  ]
+}
+
