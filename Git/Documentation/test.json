@@ -1,0 +1,12 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "city": "Exampleville",
+  "isStudent": false,
+  "grades": [95, 88, 92],
+  "address": {
+    "street": "123 Main Street",
+    "zipCode": "12345"
+  }
+}
+
